@@ -8,7 +8,7 @@
 
 - [x] SEARCH
 
-**Notes** along with **Time Stamp** using *Android Studio(Java)* and *SQLite*.
+**Notes** along with **Time Stamp** using **Android Studio(Java)** and **SQLite**.
 
 ### Components:(Practice)
 
@@ -22,4 +22,4 @@
 - Search bar (Menu)
 - Custom Launcher
 
-#### Some UI can be improved but kept like that intentionally for practice purpose.
+#### *Some UI can be improved but kept like that intentionally for practice purpose.*
