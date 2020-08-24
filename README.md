@@ -1,4 +1,4 @@
-# KEEP NOTES APP
+# KEEP NOTES Android Application
 
 - [x] ADD
 
