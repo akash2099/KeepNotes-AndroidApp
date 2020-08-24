@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_listbox"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/datetime_tv2"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="3dp"
+            android:layout_weight="0"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="2020-08-24 13:32:06"
+            android:textColor="#0800F4"
+            android:textSize="12sp" />
+
+<!--        android:ellipsize="marquee"-->
+<!--        android:focusable="true"-->
+<!--        android:focusableInTouchMode="true"-->
+<!--        android:scrollHorizontally="true"-->
+<!--        android:marqueeRepeatLimit="marquee_forever"-->
+<!--        android:singleLine="true"-->
+
+
+        <TextView
+            android:id="@+id/title_tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="3dp"
+
+            android:ellipsize="marquee"
+
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:fontFamily="@font/aldrich"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:paddingRight="10dp"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="Title"
+            android:textColor="#9B09DA"
+            android:textSize="24sp" />
+    </LinearLayout>
+    <!--        android:singleLine="true"-->
+    <TextView
+        android:id="@+id/desc_tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:fontFamily="@font/overpass"
+
+        android:inputType="textMultiLine"
+
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        android:text="Description"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+</LinearLayout>

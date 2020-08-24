@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_popup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="12dp"
+        android:paddingTop="15dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="15dp">
+
+        <TextView
+            android:id="@+id/datetime_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="2020-08-24 11:30:25"
+            android:textColor="#0800F4"
+            android:textSize="18sp" />
+
+
+<!--        android:singleLine="true"-->
+<!--        android:ellipsize="marquee"-->
+<!--        android:marqueeRepeatLimit ="marquee_forever"-->
+<!--        android:focusable="true"-->
+<!--        android:focusableInTouchMode="true"-->
+<!--        android:scrollHorizontally="true"-->
+
+
+        <TextView
+            android:id="@+id/title_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/amarante"
+            android:maxLines="2"
+            android:scrollbars="vertical"
+            android:text="Descriptionsdfsdfsssssssssssssssssssdssfsfs"
+            android:textColor="#9B09DA"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/desc_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:maxLines="8"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:text="Descriptionsdfsdfssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssndjbfhsdjjjjjjjjjshghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhdghvhdddddjhhhhhhhhhh"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:padding="15dp">
+
+            <Button
+                android:id="@+id/edit_popup"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:background="#0CE822"
+                android:onClick="checkthis1"
+                android:text="EDIT"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/delete_popup"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="#EF0202"
+                android:text="DELETE"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

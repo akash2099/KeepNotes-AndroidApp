@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="12dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="50dp">
+
+        <ListView
+            android:id="@+id/lv_all"
+            android:layout_width="match_parent"
+            android:layout_height="1.82in"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="2"
+            android:background="#EFE8F6"
+            android:dividerHeight="3dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp">
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="monospace"
+            android:text="@string/Heading1"
+            android:textColor="#CA0994"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:ems="10"
+            android:hint="@string/hint1"
+            android:inputType="textMultiLine"
+            android:maxLines="1"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:scrollbars="vertical"
+            android:textColorHint="#8AA0D8"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="@string/Heading2"
+            android:textColor="#CA0994"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint2"
+            android:inputType="textMultiLine|textAutoCorrect"
+            android:maxLines="2"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            android:textColorHint="#8AA0D8"
+            android:textSize="14sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/add_button"
+                    android:layout_width="120dp"
+
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#6200EE"
+                    android:fontFamily="serif-monospace"
+                    android:onClick="buSave"
+                    android:paddingLeft="7dp"
+                    android:paddingTop="7dp"
+                    android:paddingRight="7dp"
+                    android:paddingBottom="7dp"
+                    android:text="ADD"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/update_button"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#6200EE"
+                    android:fontFamily="serif-monospace"
+                    android:onClick="buUpdate"
+                    android:paddingLeft="7dp"
+                    android:paddingTop="7dp"
+                    android:paddingRight="7dp"
+                    android:paddingBottom="7dp"
+                    android:text="UPDATE"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

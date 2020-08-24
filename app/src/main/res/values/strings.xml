@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Keep Notes</string>
+    <string name="Heading1">Title</string>
+    <string name="Heading2">Description</string>
+    <string name="hint1">Give some title</string>
+    <string name="hint2">Give some description</string>
+</resources>
