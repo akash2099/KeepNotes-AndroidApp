@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()){
             case R.id.menu_help:
                 AlertDialog.Builder info=new AlertDialog.Builder(this);
-                info.setMessage("Project started on 23-08-2020\nAkash Manna\nFEATURES:\nADD, DELETE, UPDATE and SEARCH Notes along with Time Stamp using Android Studio(Java) and SQLite\n")
+                info.setMessage("Project started on 23-08-2020\nAkash Manna\nFEATURES:\nADD, DELETE, UPDATE and SEARCH Notes along with Time Stamp using Android Studio(Java) and SQLite\nSource Code:\nhttps://github.com/akash2099/Keep-Notes-App")
                         .setTitle("Information")
                         .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                             @Override
