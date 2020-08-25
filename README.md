@@ -2,6 +2,8 @@
 
 ![Keep Notes Android Application](https://github.com/akash2099/Resources/blob/master/Keep_Notes_Android_Application/Keep_Notes_GIF.gif)
 
+### **Download and try it yourself from [here](https://github.com/akash2099/Resources/blob/master/Keep_Notes_Android_Application/Keep_Notes.apk).**
+
 ## Features:
 
 - [x] ADD
@@ -11,7 +13,7 @@
 
 **Notes** along with **Time Stamp** using **Android Studio(Java)** and **SQLite**.
 
-### Components Used:(Practice)
+## Components Used:
 
 - EditText
 - TextView
