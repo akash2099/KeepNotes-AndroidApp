@@ -27,3 +27,5 @@
 - Other designs
 
 #### *Some UI can be improved but kept like that intentionally for practice purpose.*
+
+*The above GIF quality is low due to its long duration.*
