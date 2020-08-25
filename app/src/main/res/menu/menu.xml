@@ -5,7 +5,7 @@
         android:id="@+id/menu_help"
         app:showAsAction="ifRoom"
         android:icon="@drawable/info_icon"
-        android:title="Help" />
+        android:title="About" />
     <item
         android:id="@+id/menu_settings"
         app:showAsAction="ifRoom"

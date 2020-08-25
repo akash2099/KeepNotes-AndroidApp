@@ -1,6 +1,7 @@
 package com.example.sqlliteapp;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentActivity;
@@ -12,6 +13,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
+import android.os.Build;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
 import android.view.Gravity;
@@ -21,6 +23,9 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebResourceRequest;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.EditText;
@@ -39,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
     EditText etTitle;
     EditText etDesc;
     long RecordID;
+    WebView webView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -82,12 +88,14 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()){
             case R.id.menu_help:
                 AlertDialog.Builder info=new AlertDialog.Builder(this);
-                info.setMessage("Project started on 23-08-2020\nAkash Manna\nFEATURES:\nADD, DELETE, UPDATE and SEARCH Notes along with Time Stamp using Android Studio(Java) and SQLite\nSource Code:\nhttps://github.com/akash2099/Keep-Notes-App")
+                info.setMessage("Project started on 23-08-2020\nby AKASH MANNA\nFEATURES:\nADD, DELETE, UPDATE and SEARCH Notes along with Time Stamp using Android Studio(Java) and SQLite")
                         .setTitle("Information")
-                        .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                        .setPositiveButton("Source Code", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                Toast.makeText(getApplicationContext(),"Thank you!",Toast.LENGTH_SHORT);
+                                Intent webintent=new Intent(getApplicationContext(),Main2Activity.class);
+                                startActivity(webintent);
+//                                Toast.makeText(getApplicationContext(),"Hi!",Toast.LENGTH_SHORT).show();
                             }
                         })
                         .show();
