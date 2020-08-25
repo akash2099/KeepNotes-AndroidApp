@@ -1,11 +1,12 @@
 # KEEP NOTES Android Application
 
+![Keep Notes Android Application](https://github.com/akash2099/Resources/blob/master/Keep_Notes_Android_Application/Keep_Notes_GIF.gif)
+
+## Features:
+
 - [x] ADD
-
 - [x] DELETE
-
 - [x] UPDATE
-
 - [x] SEARCH
 
 **Notes** along with **Time Stamp** using **Android Studio(Java)** and **SQLite**.
