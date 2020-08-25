@@ -10,7 +10,7 @@
 
 **Notes** along with **Time Stamp** using **Android Studio(Java)** and **SQLite**.
 
-### Components:(Practice)
+### Components Used:(Practice)
 
 - EditText
 - TextView
