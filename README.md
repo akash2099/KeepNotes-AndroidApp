@@ -21,6 +21,7 @@
 - Alert Dialog
 - SQLite (Database)
 - Search bar (Menu)
+- WebView
 - Custom Launcher
 - Other designs
 
