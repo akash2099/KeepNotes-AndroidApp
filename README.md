@@ -2,7 +2,8 @@
 
 ![Keep Notes Android Application](https://github.com/akash2099/Resources/blob/master/Keep_Notes_Android_Application/Keep_Notes_GIF.gif)
 
-### **Download and try it yourself from [here](https://github.com/akash2099/Resources/blob/master/Keep_Notes_Android_Application/Keep_Notes.apk).**
+### **Download and try the app yourself from [here](https://github.com/akash2099/Resources/blob/master/Keep_Notes_Android_Application/Keep_Notes.apk).**
+### **Download the demo video from [here](https://github.com/akash2099/Resources/blob/master/Keep_Notes_Android_Application/Screen_Recording_Keep_Notes.mp4).**
 
 ## Features:
 
