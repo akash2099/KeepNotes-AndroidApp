@@ -2,7 +2,7 @@
 
 ![Keep Notes Android Application](https://github.com/akash2099/Resources/blob/master/Keep_Notes_Android_Application/Keep_Notes_GIF.gif)
 
-### **[Try](https://github.com/akash2099/Resources/blob/master/Keep_Notes_Android_Application/Keep_Notes.apk) the app yourself :zap:**
+### **Try the [app](https://github.com/akash2099/Resources/blob/master/Keep_Notes_Android_Application/Keep_Notes.apk) yourself :zap:**
 ### **For help refer to demo [video](https://github.com/akash2099/Resources/blob/master/Keep_Notes_Android_Application/Screen_Recording_Keep_Notes.mp4) :v:**
 
 
