@@ -5,37 +5,62 @@
 ### **[Try](https://github.com/akash2099/Resources/blob/master/Keep_Notes_Android_Application/Keep_Notes.apk) the app yourself :zap:**
 ### **For help refer to demo [video](https://github.com/akash2099/Resources/blob/master/Keep_Notes_Android_Application/Screen_Recording_Keep_Notes.mp4) :v:**
 
+
 ## Features :fire:
 
-:heavy_check_mark: ADD :heavy_plus_sign:
-:heavy_check_mark: DELETE :x:
-:heavy_check_mark: UPDATE :arrows_counterclockwise:
-:heavy_check_mark: SEARCH :heavy_plus_sign:
-:heavy_check_mark: SET CUSTOM REMINDER :clock9:
+:heavy_plus_sign: ADD
+
+:x: DELETE
+
+:arrows_counterclockwise: UPDATE
+
+:loop: SEARCH
+
+:alarm_clock: SET CUSTOM REMINDER
+
 
 ## Framework Used :star2:
 
-**Android Studio(Java)** :iphone:
+:iphone: **Android Studio(Java)**
 
-## Components Used:
 
-- EditText
-- TextView
-- Button
-- Layouts (Linear: Horizontal, Vertical, Table, Relative)
-- ListView (Adapter)
-- Dialog Fragment
-- Alert Dialog
-- SQLite (Database)
-- Search bar (Menu)
-- WebView
-- Custom Launcher
-- Intent
-- PendingIntent
-- Broadcast Receiver
-- Custom Notification
-- Alarm Manager
-- MediaPlayer
-- Other designs
+## Components Used 〽️
+
+:heavy_check_mark: EditText
+
+:heavy_check_mark: TextView
+
+:heavy_check_mark: Button
+
+:heavy_check_mark: Layouts (Linear: Horizontal, Vertical, Table, Relative)
+
+:heavy_check_mark: ListView (Adapter)
+
+:heavy_check_mark: Dialog Fragment
+
+:heavy_check_mark: Alert Dialog
+
+:heavy_check_mark: SQLite (Database)
+
+:heavy_check_mark: Search bar (Menu)
+
+:heavy_check_mark:- WebView
+
+:heavy_check_mark: Custom Launcher
+
+:heavy_check_mark: Intent
+
+:heavy_check_mark: PendingIntent
+
+:heavy_check_mark: Broadcast Receiver
+
+:heavy_check_mark: Custom Notification
+
+:heavy_check_mark: Alarm Manager
+
+:heavy_check_mark: MediaPlayer
+
+:heavy_check_mark: Other designs
+
 
 #### *Some UI can be improved but kept like that intentionally for practice purpose :wink:*
