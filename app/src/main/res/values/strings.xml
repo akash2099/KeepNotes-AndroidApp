@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">Keep Notes</string>
-    <string name="Heading1">Title</string>
-    <string name="Heading2">Description</string>
+    <string name="Heading1">TITLE</string>
+    <string name="Heading2">DESCRIPTION</string>
     <string name="hint1">Give some title</string>
     <string name="hint2">Give some description</string>
+    <string name="channel_name">Reminder</string>
+    <string name="channel_description">App Reminder and Alarm Notificaions</string>
 </resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_reminder"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/reminder_icon_yellow"
+        android:title="Reminder" />
+    <item
+        android:id="@+id/menu_delete"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/delete_rem_icon_small"
+        android:title="Delete" />
+
+</menu>

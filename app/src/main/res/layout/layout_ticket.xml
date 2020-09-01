@@ -11,20 +11,7 @@
         android:layout_weight="1"
         android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/datetime_tv2"
-            android:layout_width="88dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_marginTop="3dp"
-            android:layout_weight="0"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            android:text="2020-08-24 13:32:06"
-            android:textColor="#0800F4"
-            android:textSize="12sp" />
-
-<!--        android:ellipsize="marquee"-->
+        <!--        android:ellipsize="marquee"-->
 <!--        android:focusable="true"-->
 <!--        android:focusableInTouchMode="true"-->
 <!--        android:scrollHorizontally="true"-->
@@ -37,10 +24,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+
             android:layout_marginTop="3dp"
 
             android:ellipsize="marquee"
-
             android:focusable="true"
             android:focusableInTouchMode="true"
             android:fontFamily="@font/aldrich"
@@ -57,17 +45,32 @@
         android:id="@+id/desc_tv2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+
         android:layout_weight="1"
 
         android:fontFamily="@font/overpass"
 
         android:inputType="textMultiLine"
 
-        android:paddingLeft="10dp"
         android:paddingRight="10dp"
-
         android:text="Description"
         android:textColor="#000000"
         android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/date_time_id_rem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_weight="1"
+        android:background="#FFFF00"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="2020-09-25 8:30:46"
+        android:textColor="#000000"
+        android:textSize="12sp" />
 
 </LinearLayout>

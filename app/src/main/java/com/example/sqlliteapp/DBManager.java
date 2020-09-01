@@ -3,6 +3,7 @@ package com.example.sqlliteapp;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
+import android.database.DatabaseUtils;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteQueryBuilder;
@@ -15,10 +16,13 @@ public class DBManager {
     static final String ColDateTime="DateTime";
     static final String ColTitle="Title";
     static final String ColDescription="Description";
+    static final String ColRemTime="Time";
+    static final String ColRemDate="Date";
     static final String ColID="ID";
     static final int DBVersion=1;
     static final String CreateTable="Create table IF NOT EXISTS "+TableName+ "(ID integer primary key autoincrement,"+ColDateTime+
-            " text,"+ColTitle+" text,"+ColDescription+" text);";
+            " text,"+ColTitle+" text,"+ColDescription+" text,"+ColRemTime+" text,"+ColRemDate+" text);";
+
     static class DatabaseHelperUser extends SQLiteOpenHelper{
 
         Context context;
@@ -69,6 +73,11 @@ public class DBManager {
     }
     public int Update(ContentValues values, String Selection, String[] SelectionArgs){
         int count=sqlDB.update(TableName,values,Selection,SelectionArgs);
+        return count;
+    }
+
+    public long RowCount(){
+        long count= DatabaseUtils.queryNumEntries(sqlDB,TableName);
         return count;
     }
 }
