@@ -16,7 +16,7 @@
 
 :loop: SEARCH
 
-:alarm_clock: SET CUSTOM REMINDER
+:alarm_clock: SET CUSTOM :date: REMINDER
 
 
 ## Framework Used :star2:
