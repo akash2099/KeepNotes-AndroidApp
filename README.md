@@ -21,7 +21,7 @@
 
 ## Framework Used :star2:
 
-:iphone: **Android Studio(Java)**
+:iphone: **Android Studio (Java)**
 
 
 ## Components Used 〽️
@@ -44,7 +44,7 @@
 
 :heavy_check_mark: Search bar (Menu)
 
-:heavy_check_mark:- WebView
+:heavy_check_mark: WebView
 
 :heavy_check_mark: Custom Launcher
 
