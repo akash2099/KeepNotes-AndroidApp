@@ -48,6 +48,8 @@
 
 :heavy_check_mark: Custom Launcher
 
+:heavy_check_mark: Permissions
+
 :heavy_check_mark: Intent
 
 :heavy_check_mark: PendingIntent
