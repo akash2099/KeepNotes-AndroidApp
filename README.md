@@ -66,3 +66,4 @@
 
 
 #### *Some UI can be improved but kept like that intentionally for practice purpose :wink:*
+*Thank you*
